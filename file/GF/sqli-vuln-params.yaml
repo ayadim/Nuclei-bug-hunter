@@ -14,7 +14,7 @@ file:
       - type: regex
         name: basic-check
         regex:
-          - "(\\?|\\&|\\/)(id|select|report|client|role|update|query|username|user|name|sort)((_|-){0,})((id|number){0,1})(=|(\\/([0-9]+))(\\/){0,})"
-          - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-){0,})((id|number){0,1})(=|(\\/([0-9]+))(\\/){0,})"
+          - "(\\?|\\&|\\/)(id|select|report|client|role|update|query|username|user|name|sort)((_|-){0,})((id|number|num){0,1})(=|(\\/([0-9]+))(\\/){0,})"
+          - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-){0,})((id|number|num){0,1})(=|(\\/([0-9]+))(\\/){0,})"
           - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){0,}(id){1,1}(=)"
           - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){1,1}(cat|num|number){1,1}(=)"
