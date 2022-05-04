@@ -4,7 +4,7 @@ info:
   name: detect possible SSRF parameters 
   author: mohammed ayadi
   severity: info
-  tags: ssrf,file
+  tags: ssrf,file,gf
 
 file:
   - extensions:
