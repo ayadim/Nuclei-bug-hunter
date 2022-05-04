@@ -4,7 +4,7 @@ info:
   name: detect possible XSS parameters 
   author: mohammed ayadi
   severity: info
-  tags: ssrf,file
+  tags: xss,file
 
 file:
   - extensions:
