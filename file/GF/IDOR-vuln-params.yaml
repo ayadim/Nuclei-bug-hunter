@@ -4,7 +4,7 @@ info:
   name: detect possible idor parameters 
   author: mohammed ayadi
   severity: info
-  tags: idor,file
+  tags: idor,file,gf
 
 file:
   - extensions:
