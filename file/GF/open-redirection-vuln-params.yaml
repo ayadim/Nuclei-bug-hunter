@@ -6,7 +6,7 @@ info:
   severity: info
   reference:
     - Inspired by Tom Hudson (Tomnomnom) ref:https://github.com/tomnomnom/gf 
-  tags: open-redirection,file
+  tags: open-redirection,file,gf
 
 file:
   - extensions:
