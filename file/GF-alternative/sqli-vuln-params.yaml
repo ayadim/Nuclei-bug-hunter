@@ -4,7 +4,7 @@ info:
   name: detect possible sqli parameters 
   author: mohammed ayadi
   severity: info
-  tags: sqli,file
+  tags: sqli,file,gf
 
 file:
   - extensions:
@@ -12,7 +12,6 @@ file:
 
     extractors:
       - type: regex
-        name: basic-check
         regex:
           - "(\\?|\\&|\\/)(id|select|report|client|role|update|query|username|user|name|sort)((_|-){0,})((id|number|num|order){0,1})(=|(\\/([0-9]+))(\\/){0,})"
           - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-){0,})((id|number|num|order){0,1})(=|(\\/([0-9]+))(\\/){0,})"
