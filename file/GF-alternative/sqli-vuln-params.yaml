@@ -17,3 +17,4 @@ file:
           - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-){0,})((id|number|num|order){0,1})(=|(\\/([0-9]+))(\\/){0,})"
           - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){0,}(id){1,1}(=)"
           - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){1,1}(cat|num|number|order){1,1}(=)"
+          - "(\\/[0-9]+\\/)"
