@@ -1,12 +1,10 @@
 id: open-redirection-vuln-params
 
 info:
-  name: detect possible open-redirection parameters 
-  author: mohammed ayadi
+  name: Detect possible open-redirection parameters 
+  author: mohammed ayadi (ayadim)
   severity: info
-  reference:
-    - Inspired by Tom Hudson (Tomnomnom) ref:https://github.com/tomnomnom/gf 
-  tags: open-redirection,file,gf
+  tags: file,gf,gf-or
 
 file:
   - extensions:

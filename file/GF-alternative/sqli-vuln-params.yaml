@@ -2,9 +2,9 @@ id: sqli-vuln-params
 
 info:
   name: detect possible sqli parameters 
-  author: mohammed ayadi
+  author: mohammed ayadi (ayadim)
   severity: info
-  tags: sqli,file,gf
+  tags: sqli-gf,file,gf
 
 file:
   - extensions:
@@ -13,8 +13,8 @@ file:
     extractors:
       - type: regex
         regex:
-          - "(\\?|\\&|\\/)(id|select|report|client|role|update|query|username|user|name|sort)((_|-){0,})((id|number|num|order){0,1})(=|(\\/([0-9]+))(\\/){0,})"
-          - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-){0,})((id|number|num|order){0,1})(=|(\\/([0-9]+))(\\/){0,})"
-          - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){0,}(id){1,1}(=)"
-          - "(\\?|\\&|\\/)([a-z0-9]+)(-|_){1,1}(cat|num|number|order){1,1}(=)"
+          - "(\\?|\\&|\\/)(id|select|report|client|role|update|query|username|user|name|sort)((_|-)*)((id|number|num|order)?)(=|(\\/([0-9]+))(\\/)*)"
+          - "(\\?|\\&|\\/)(where|params|process|row|view|table|from|sel|results|sleep|fetch|order|keyword|column|field|delete|string|number|filter)((_|-)*)((id|number|num|order)?)(=|(\\/([0-9]+))(\\/)*)"
+          - "(?i)(\\?|\\&|\\/)([a-z0-9]+)(-|_)?(id)(=)"
+          - "(?i)(\\?|\\&|\\/)([a-z0-9]+)(-|_)?(cat|num|number|order)(=)"
           - "(\\/[0-9]+\\/)"

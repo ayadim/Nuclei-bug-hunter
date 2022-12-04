@@ -2,9 +2,9 @@ id: xss-vuln-params
 
 info:
   name: detect possible XSS parameters 
-  author: mohammed ayadi
+  author: mohammed ayadi (ayadim)
   severity: info
-  tags: xss,file,gf
+  tags: xss-gf,file,gf
 
 file:
   - extensions:

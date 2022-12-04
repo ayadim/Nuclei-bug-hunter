@@ -2,9 +2,9 @@ id: rce-vuln-params
 
 info:
   name: detect possible rce parameters 
-  author: mohammed ayadi
+  author: mohammed ayadi (ayadim)
   severity: info
-  tags: rce,file,gf
+  tags: rce-gf,file,gf
 
 file:
   - extensions:

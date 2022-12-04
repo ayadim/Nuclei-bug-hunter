@@ -2,9 +2,9 @@ id: ssti-vuln-params
 
 info:
   name: detect possible XSS parameters 
-  author: mohammed ayadi
+  author: mohammed ayadi (ayadim)
   severity: info
-  tags: ssti,file,gf
+  tags: ssti-gf,file,gf
 
 file:
   - extensions:

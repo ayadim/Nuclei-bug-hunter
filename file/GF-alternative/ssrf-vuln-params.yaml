@@ -2,9 +2,9 @@ id: ssrf-vuln-params
 
 info:
   name: detect possible SSRF parameters 
-  author: mohammed ayadi
+  author: mohammed ayadi (ayadim)
   severity: info
-  tags: ssrf,file,gf
+  tags: ssrf-gf,file,gf
 
 file:
   - extensions:
