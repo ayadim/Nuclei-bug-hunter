@@ -1,0 +1,15 @@
+id: lfi-vuln-params
+
+info:
+  name: detect possible lfi parameters 
+  author: ayadim
+  severity: info
+  tags: file,gf,gf-lfi,gf-check1
+
+file:
+  - extensions:
+      - all
+    extractors:
+      - type: regex
+        regex:
+          - "(?i)(\\?|\\&)(([a-z0-9]+)?((-|_)+)?)?(file|document|folder|root|path|pg|page|style|pdf|template|doc|cat|dir|action|board|date|detail|download|view|img|image|src|conf|url|uri|include|content|layout|locate|show|site)="
