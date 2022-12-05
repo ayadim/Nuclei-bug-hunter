@@ -4,7 +4,7 @@ info:
   name: detect possible rce parameters 
   author: ayadim
   severity: info
-  tags: file,gf,gf-rce,gf-check1
+  tags: file,bbh,bbh-rce,bbh-check1
 
 file:
   - extensions:

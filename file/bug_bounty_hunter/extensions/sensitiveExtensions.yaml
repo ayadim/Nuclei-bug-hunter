@@ -3,7 +3,7 @@ info:
   name: sensitive-extensions
   author: ayadim
   severity: medium
-  tags: file,gf,gf-extensions,,gf-check2
+  tags: file,bbh,bbh-extensions,bbh-check2
 
 file:
   - extensions:
