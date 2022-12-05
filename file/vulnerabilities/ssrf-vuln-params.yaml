@@ -4,7 +4,7 @@ info:
   name: detect possible SSRF parameters 
   author: mohammed ayadi (ayadim)
   severity: info
-  tags: file,bbh,bbh-ssrf,bbh-or,bbh-check1
+  tags: file,nbh,nbh-ssrf,nbh-or,nbh-check1
 
 file:
   - extensions:

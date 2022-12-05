@@ -4,7 +4,7 @@ info:
   author: ayadim
   severity: medium
   reference:  https://github.com/CYS4srl/CYS4-SensitiveDiscoverer/
-  tags: file,bbh,bbh-extensions,bbh-check2
+  tags: file,nbh,nbh-extensions,nbh-check2
 
 file:
   - extensions:
