@@ -12,4 +12,4 @@ file:
     extractors:
       - type: regex
         regex:
-          - "(?i)(\\?|\\&)(([a-z0-9]+)?((-|_)+)?)?(daemon|upload|dir|download|log|ip|cli|cmd|exec|command|execute|feature|exe|module|payload|run|print|ping|query|jump|code|reg|do|func|arg|option|load|process|step|read|function|req)="
+          - "(?i)(\\?|\\&)(([a-z0-9]+)?((-|_)+)?)?(daemon|host|upload|dir|download|log|ip|cli|cmd|exec|command|execute|feature|exe|module|payload|run|print|ping|query|jump|code|reg|do|func|arg|option|load|process|step|read|function|req)="
