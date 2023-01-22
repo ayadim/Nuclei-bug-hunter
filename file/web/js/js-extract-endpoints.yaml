@@ -4,11 +4,11 @@ info:
   name: Extra-secrets
   author: ayadim
   severity: high
-  tags: file,bbh,bbh-token
+  tags: file,bbh,bbh-js,bbh-js-endpoints
 
 file:
   - extensions:
-      - all
+      - js,html
     extractors:
       - type: regex
         name: token

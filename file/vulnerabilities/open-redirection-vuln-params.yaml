@@ -4,7 +4,7 @@ info:
   name: Detect possible open-redirection parameters 
   author: ayadim
   severity: info
-  tags: file,nbh,nbh-or,nbh-ssrf,nbh-lfi,nbh-check1
+  tags: file,bbh,bbh-or,bbh-ssrf,bbh-lfi,bbh-check1
 
 file:
   - extensions:
