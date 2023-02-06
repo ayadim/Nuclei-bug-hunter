@@ -13,4 +13,4 @@ file:
     extractors:
       - type: regex
         regex:
-          - "(?i)(\\?|\\&|\\/)(([a-z0-9]+)((-|_)+))?(url|uri|link|name|access|admin|dbg|debug|edit|grant|test|alter|clone|create|delete|disable|enable|exec|execute|load|r|make|modify|rename|reset|shell|toggle|adm|root|cfg|dest|redirect|uri|path|continue|window|next|data|reference|ref|site|html|val|validate|domain|callback|return|page|feed|host|port|to|out|view|dir|show|navigation|open|file|document|folder|pg|php|asp|doc|img|filename)="
+          - "(?i)(\\?|\\&|\\/)(((([a-z0-9-_])+(-|_)+))|(-|_))?(url|uri|link|name|access|admin|dbg|debug|edit|grant|test|alter|clone|create|delete|disable|enable|exec|execute|load|r|make|modify|rename|reset|shell|toggle|adm|root|cfg|dest|redirect|uri|path|continue|window|next|data|reference|ref|site|html|val|validate|domain|callback|return|page|feed|host|port|to|out|view|dir|show|navigation|open|file|document|folder|pg|php|asp|doc|img|filename)="

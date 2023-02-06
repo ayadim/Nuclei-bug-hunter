@@ -13,4 +13,4 @@ file:
     extractors:
       - type: regex
         regex:
-          - "(?i)(\\?|\\&)(([a-z0-9]+)((-|_)+))?(template|preview|id|view|activity|name|content|redirect)="
+          - "(?i)(\\?|\\&)(((([a-z0-9-_])+(-|_)+))|(-|_))?(template|preview|id|view|activity|name|content|redirect)="

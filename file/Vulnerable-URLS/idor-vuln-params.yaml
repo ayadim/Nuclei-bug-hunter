@@ -13,4 +13,4 @@ file:
     extractors:
       - type: regex
         regex:
-          - "(?i)(\\?|\\&)(([a-z0-9]+)((-|_)+))?(id|uuid|user|account|number|order|no|doc|key|email|group|profile|edit|report|username)((=)|(\\/[0-9]+\\/?))"
+          - "(?i)(\\?|\\&)(((([a-z0-9-_])+(-|_)+))|(-|_))?(id|uuid|user|account|number|order|no|doc|key|email|group|profile|edit|report|username)((=)|(\\/[0-9]+\\/?))"
