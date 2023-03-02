@@ -1,0 +1,21 @@
+id: js-endpoint-extractor
+#See the pattern https://regex101.com/r/QhNFBA/1
+info:
+  name: js-endpoint-extractor
+  author: ayadim
+  severity: low
+  tags: file,bbh,bbh-js,bbh-js-endpoint-extractor,bbh-fingerprint,bbh-endpoint-extractor
+
+file:
+  - extensions:
+      - js
+    extractors:
+      - type: regex
+        name: token
+        regex:
+        #case : './path/file' or "/path/file"
+          - "(?i)('|\")((\\.{0,2})|([a-z0-9-_]*))/([a-z0-9-_/=:&?\\.]+)('|\")"
+        #case "`${ this.hostServer }/rest/basket/${ e }"
+          - "(?i)}\\s*/[a-z0-9-_?=&/]+"
+        #case "path: 'login',"
+          - "(?i)path\\s*(:|=)\\s*('|\")[a-z0-9-_?=&:\\./]+('|\")"
