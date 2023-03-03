@@ -1,5 +1,4 @@
 id: js-endpoint-extractor
-#See the pattern https://regex101.com/r/QhNFBA/1
 info:
   name: js-endpoint-extractor
   author: ayadim
