@@ -1,4 +1,9 @@
 # nuclei Bug hunter
 i will upload more nuclei templates that help during the bug bounty hunting process.
+#
+## Main templates 
 
-[Find secrets in repositories/js files by using this template ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/bug_bounty_hunter/file/secrets/extra-secrets.yaml)
+- [Find possible vulnerable parameters.](https://github.com/ayadim/Nuclei-bug-hunter/tree/main/file/Vulnerable-URLS)
+- [Find secrets in repositories or code source ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/secrets/extra-secrets.yaml)
+
+- [Extract endpoints from js files ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-endpoint-extractor.yaml)
