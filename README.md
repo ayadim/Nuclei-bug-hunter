@@ -7,3 +7,5 @@ i will upload more nuclei templates that help during the bug bounty hunting proc
 - [Find secrets in repositories or code source ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/secrets/extra-secrets.yaml)
 
 - [Extract endpoints from js files ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-endpoint-extractor.yaml)
+
+- [Intersting extensions detection in list of urls](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/file-extensions/interstingExtensions.yaml)
