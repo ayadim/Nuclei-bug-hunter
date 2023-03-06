@@ -21,5 +21,5 @@ file:
       - type: regex
         name: URI
         regex:
-        #case we have a URI that match any of the following schemas (http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss ... etc )
+        #case we have a URI that match any of the following schemes (http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss ... etc )
           - "(?i)([a-z]{0,10}):(//|/)[a-z0-9\\./?&-_=:]+"
