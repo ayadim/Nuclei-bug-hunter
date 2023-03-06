@@ -10,7 +10,7 @@ file:
       - js
     extractors:
       - type: regex
-        name: token
+        name: Endpoints
         regex:
         #case : './path/file' or "/path/file"
           - "(?i)('|\")((\\.{0,2})|([a-z0-9-_]*))/([a-z0-9-_/=:&?\\.]+)('|\")"
@@ -18,3 +18,7 @@ file:
           - "(?i)}\\s*/[a-z0-9-_?=&/]+"
         #case "path: 'login',"
           - "(?i)path\\s*(:|=)\\s*('|\")[a-z0-9-_?=&:\\./]+('|\")"
+      - type: regex
+        name: Urls
+        regex:
+          - ""
