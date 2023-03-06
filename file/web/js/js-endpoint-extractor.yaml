@@ -19,6 +19,8 @@ file:
         #case "path: 'login',"
           - "(?i)path\\s*(:|=)\\s*('|\")[a-z0-9-_?=&:\\./]+('|\")"
       - type: regex
-        name: Urls
+        name: URI
         regex:
-          - ""
+        #case we have a URI that match any of the following scheme below
+        #Ref : https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web
+          - "(?i)(http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss):(//|/)[a-z0-9\\./?&-_=:]+"
