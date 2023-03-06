@@ -21,6 +21,5 @@ file:
       - type: regex
         name: URI
         regex:
-        #case we have a URI that match any of the following scheme below
-        #Ref : https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web
-          - "(?i)(http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss):(//|/)[a-z0-9\\./?&-_=:]+"
+        #case we have a URI that match any of the following schemas (http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss ... etc )
+          - "(?i)([a-z]{0,10}):(//|/)[a-z0-9\\./?&-_=:]+"
