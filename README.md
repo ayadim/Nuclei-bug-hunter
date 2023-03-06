@@ -1,4 +1,4 @@
-# nuclei Bug hunter
+# Nuclei Bug Hunter
 i will upload more nuclei templates that help during the bug bounty hunting process.
 #
 ## Main templates 
