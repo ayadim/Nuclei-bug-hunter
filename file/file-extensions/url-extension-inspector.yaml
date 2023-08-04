@@ -1,6 +1,6 @@
-id: interstingExtensions
+id: url-extension-inspector
 info:
-  name: Intersting extensions - Detection
+  name: URL Extension Inspector
   author: ayadim
   severity: low
   description: This template help you to find intersting extensions in list of urls
