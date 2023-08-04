@@ -5,7 +5,7 @@ info:
   severity: low
   description: This template help you to find intersting extensions in list of urls
   reference:  https://github.com/CYS4srl/CYS4-SensitiveDiscoverer/
-  tags: file,bbh,bbh-extensions,bbh-check2
+  tags: file,urls
 
 file:
   - extensions:
