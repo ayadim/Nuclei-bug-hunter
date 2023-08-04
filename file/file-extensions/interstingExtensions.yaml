@@ -14,196 +14,204 @@ file:
       - type: regex
         name: Hot finding
         regex:
-          - "(htdocs|www|html|web|webapps|public|public_html|uploads|website|api|test|app|backup|bin|bak|old|release|sql)\\.(7z|bz2|gz|lz|rar|tar\\.gz|tar\\.bz2|xz|zip|z)"
+          - "(?i)(htdocs|www|html|web|webapps|public|public_html|uploads|website|api|test|app|backup|bin|bak|old|release|sql)\\.(7z|bz2|gz|lz|rar|tar\\.gz|tar\\.bz2|xz|zip|z)"
       - type: regex        
         name: Backup file
         regex:
-          - "(\\.bak|\\.backup|\\.bkp)"
+          - "(?i)(\\.bak|\\.backup|\\.bkp|\\._bkp|\\.bk|\\.BAK)"
+      - type: regex
+        name: PHP Source
+        regex:
+          - "(?i)(\\.php)(\\.~|\\.bk|\\.bak|\\.bkp|\\.BAK|\\.swp|\\.swo|\\.swn|\\.tmp|\\.save|\\.old|\\.new|\\.orig|\\.dist|\\.txt|\\.disabled|\\.original|\\.backup|\\._back|\\._1\\.bak|~|!|\\.0|\\.1|\\.2|\\.3)"
+      - type: regex
+        name: ASP Source
+        regex:
+          - "(?i)(\\.asp)(\\.~|\\.bk|\\.bak|\\.bkp|\\.BAK|\\.swp|\\.swo|\\.swn|\\.tmp|\\.save|\\.old|\\.new|\\.orig|\\.dist|\\.txt|\\.disabled|\\.original|\\.backup|\\._back|\\._1\\.bak|~|!|\\.0|\\.1|\\.2|\\.3)"
       - type: regex
         name: Database file
         regex:
-          - "\\.db|\\.sql"
+          - "(?i)\\.db|\\.sql"
       - type: regex
         name: Bash script
         regex:
-          - "\\.sh|\\.bashrc|\\.zshrc"
+          - "(?i)\\.sh|\\.bashrc|\\.zshrc"
       - type: regex
         name: 1Password password manager database file
         regex:
-          - "\\.agilekeychain"
+          - "(?i)\\.agilekeychain"
       - type: regex
         name: ASP configuration file
         regex:
-          - "\\.asa"
+          - "(?i)\\.asa"
       - type: regex
         name: Apple Keychain database file
         regex:
-          - "\\.keychain"
+          - "(?i)\\.keychain"
       - type: regex
         name: Azure service configuration schema file
         regex:
-          - "\\.cscfg"
+          - "(?i)\\.cscfg"
       - type: regex
         name: Compressed archive file
         regex:
-          - "(\\.zip|\\.gz|\\.tar|\\.rar|\\.tgz)"
+          - "(?i)(\\.zip|\\.gz|\\.tar|\\.rar|\\.tgz)"
       - type: regex
         name: Configuration file
         regex:
-          - "(\\.ini|\\.config|\\.conf)"
+          - "(?i)(\\.ini|\\.config|\\.conf)"
       - type: regex
         name: Day One journal file
         regex:
-          - "\\.dayone"
+          - "(?i)\\.dayone"
       - type: regex
         name: Document file
         regex:
-          - "(\\.doc|\\.docx|\\.rtf)"
+          - "(?i)(\\.doc|\\.docx|\\.rtf)"
       - type: regex
         name: GnuCash database file
         regex:
-          - "\\.gnucash"
+          - "(?i)\\.gnucash"
       - type: regex
         name: Include file
         regex:
-          - "\\.inc"
+          - "(?i)\\.inc"
       - type: regex
         name: XML file
         regex:
-          - "\\.xml"  
+          - "(?i)\\.xml"  
       - type: regex
         name: Old file
         regex:
-          - "\\.old"
+          - "(?i)\\.old"
       - type: regex
         name: Log file
         regex:
-          - "\\.log"
+          - "(?i)\\.log"
       - type: regex
         name: Java file
         regex:
-          - "\\.java" 
+          - "(?i)\\.java" 
       - type: regex
         name: SQL dump file
         regex:
-          - "\\.sql"
+          - "(?i)\\.sql"
       - type: regex
         name: Excel file
         regex:
-          - "(\\.xls|\\.xlsx|\\.csv)"
+          - "(?i)(\\.xls|\\.xlsx|\\.csv)"
       - type: regex
         name: Certificate file
         regex:
-          - "(\\.cer|\\.crt|\\.p7b)"  
+          - "(?i)(\\.cer|\\.crt|\\.p7b)"  
       - type: regex
         name: Java key storte
         regex:
-          - "\\.jks"                   
+          - "(?i)\\.jks"                   
       - type: regex
         name: KDE Wallet Manager database file
         regex:
-          - "\\.kwallet"
+          - "(?i)\\.kwallet"
       - type: regex
         name: Little Snitch firewall configuration file
         regex:
-          - "\\.xpl"
+          - "(?i)\\.xpl"
       - type: regex
         name: Microsoft BitLocker Trusted Platform Module password file
         regex:
-          - "\\.tpm"
+          - "(?i)\\.tpm"
       - type: regex
         name: Microsoft BitLocker recovery key file
         regex:
-          - "\\.bek"
+          - "(?i)\\.bek"
       - type: regex
         name: Microsoft SQL database file
         regex:
-          - "\\.mdf"
+          - "(?i)\\.mdf"
       - type: regex
         name: Microsoft SQL server compact database file
         regex:
-          - "\\.sdf"
+          - "(?i)\\.sdf"
       - type: regex
         name: Network traffic capture file
         regex:
-          - "\\.pcap"
+          - "(?i)\\.pcap"
       - type: regex
         name: OpenVPN client configuration file
         regex:
-          - "\\.ovpn"
+          - "(?i)\\.ovpn"
       - type: regex
         name: PDF file
         regex:
-          - "\\.pdf"
+          - "(?i)\\.pdf"
       - type: regex
         name: PHP file
         regex:
-          - "\\.pcap"
+          - "(?i)\\.pcap"
       - type: regex
         name: Password Safe database file
         regex:
-          - "\\.psafe3"
+          - "(?i)\\.psafe3"
       - type: regex
         name: Potential configuration file
         regex:
-          - "\\.yml"
+          - "(?i)\\.yml"
       - type: regex
         name: Potential cryptographic key bundle
         regex:
-          - "(\\.pkcs12|\\.p12|\\.pfx|\\.asc|\\.pem)"
+          - "(?i)(\\.pkcs12|\\.p12|\\.pfx|\\.asc|\\.pem)"
       - type: regex
         name: Potential private key
         regex:
-          - "otr.private_key"
+          - "(?i)otr.private_key"
       - type: regex
         name: Presentation file
         regex:
-          - "(\\.ppt|\\.pptx)"
+          - "(?i)(\\.ppt|\\.pptx)"
       - type: regex
         name: Python file
         regex:
-          - "\\.py"
+          - "(?i)\\.py"
       - type: regex
         name: Remote Desktop connection file
         regex:
-          - "\\.rdp"
+          - "(?i)\\.rdp"
       - type: regex
         name: Ruby On Rails file
         regex:
-          - "\\.rb"
+          - "(?i)\\.rb"
       - type: regex
         name: SQLite database file
         regex:
-          - "\\.sqlite|\\.sqlitedb"
+          - "(?i)\\.sqlite|\\.sqlitedb"
       - type: regex
         name: SQLite3 database file
         regex:
-          - "\\.sqlite3"
+          - "(?i)\\.sqlite3"
       - type: regex
         name: Sequel Pro MySQL database manager bookmark file
         regex:
-          - "\\.plist"
+          - "(?i)\\.plist"
       - type: regex
         name: Shell configuration file
         regex:
-          - "(\\.exports|\\.functions|\\.extra)"
+          - "(?i)(\\.exports|\\.functions|\\.extra)"
       - type: regex
         name: Temporary file
         regex:
-          - "\\.tmp"
+          - "(?i)\\.tmp"
       - type: regex
         name: Terraform variable config file
         regex:
-          - "\\.tfvars"
+          - "(?i)\\.tfvars"
       - type: regex
         name: Text file
         regex:
-          - "\\.txt"
+          - "(?i)\\.txt"
       - type: regex
         name: Tunnelblick VPN configuration file
         regex:
-          - "\\.tblk"
+          - "(?i)\\.tblk"
       - type: regex
         name: Windows BitLocker full volume encrypted data file
         regex:
-          - "\\.fve"
+          - "(?i)\\.fve"
