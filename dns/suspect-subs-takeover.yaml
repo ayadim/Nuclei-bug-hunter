@@ -1,0 +1,94 @@
+id: suspect-subs-takeover
+
+info:
+  name: subs takeover potontial
+  description: Chack the suspected CNAME record for vulnerable provider
+  author: ayadim
+  tags: dns,takeover
+  severity: info
+
+dns:
+  - name: "{{FQDN}}"
+    type: CNAME
+    class: inet
+    recursion: true
+    retries: 3
+    matchers-condition: or
+    matchers:
+      - type: word
+        name: zendesk
+        words:
+          - "zendesk.com"
+      - type: word
+        name: github
+        words:
+          - "github.io"
+      - type: word
+        name: AWS/S3
+        words:
+          - "s3.amazonaws.com"
+      - type: word
+        name: AWS/Elastic Beanstalk
+        words:
+          - "us-east-1.elasticbeanstalk.com"
+      - type: word
+        name: Agile CRM
+        words:
+          - "agilecrm.com"
+      - type: word
+        name: Airee.ru
+        words:
+          - "airee.ru"
+      - type: word
+        name: Anima
+        words:
+          - "animaapp.io"
+      - type: word
+        name: Bitbucket
+        words:
+          - "bitbucket.io"
+      - type: word
+        name: Campaign Monitor
+        words:
+          - "createsend.com"
+      - type: word
+        name: Canny
+        words:
+          - "canny.io"
+      - type: word
+        name: Cargo Collective
+        words:
+          - "cargo.site"
+      - type: word
+        name: Digital Ocean
+        words:
+          - "digitaloceanspaces.com"
+      - type: word
+        name: Discourse
+        words:
+          - "trydiscourse.com"
+      - type: word
+        name: Azure
+        words:
+          - "cloudapp.net"
+          - "cloudapp.azure.com"
+          - "azurewebsites.net"
+          - "blob.core.windows.net"
+          - "cloudapp.azure.com"
+          - "azure-api.net"
+          - "azurehdinsight.net"
+          - "azureedge.net"
+          - "azurecontainer.io"
+          - "database.windows.net"
+          - "azuredatalakestore.net"
+          - "search.windows.net"
+          - "azurecr.io"
+          - "redis.cache.windows.net"
+          - "azurehdinsight.net"
+          - "servicebus.windows.net"
+          - "visualstudio.com"
+      - type: word
+        name: Digital Ocean
+        words:
+          - "digitaloceanspaces.com"
+          - "ondigitalocean.app"
