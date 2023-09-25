@@ -2,7 +2,7 @@ id: cname-provider-assessment
 
 info:
   name: cname provider assessment
-  description: inspect suspected CNAME records for potential vulnerabilities associated with DNS providers. matchers are based on can-i-take-over-xyz repository vulnerable providers.
+  description: inspect suspected CNAME provider (third  party) for potential subdomain takeover. matchers are based on can-i-take-over-xyz repository vulnerable providers.
   author: ayadim
   tags: dns,takeover
   severity: info
