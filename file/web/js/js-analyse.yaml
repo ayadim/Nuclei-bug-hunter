@@ -32,4 +32,7 @@ file:
         regex:
         #case we have a URI that match any of the following schemas (http|https|file|data|resource|ftp|mailto|ssh|tel|urn|ws|wss ... etc )
           - "(?i)([a-z]{0,10}):(//|/)[a-z0-9\\./?&-_=:]+"
-
+      - type: regex
+        name: AMAZON-KEY
+        regex:
+          - "(?i)((((A3T|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{12,}))(\"|'))"
