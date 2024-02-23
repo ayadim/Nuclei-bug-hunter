@@ -35,3 +35,7 @@ file:
         name: AMAZON-ACCES-KEY
         regex:
           - "(?i)(A3T[A-Z0-9]|AKIA|AGPA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
+      - type: regex
+        name: google-api-key
+        regex:
+          - "AIza[0-9A-Za-z\\-_]{35}"
