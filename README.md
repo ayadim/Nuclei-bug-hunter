@@ -8,7 +8,7 @@ I will upload more nuclei templates that help bug bounty Hunters.
 
 - JS analyse
 
-    - [JS analyse all in one (Token / Endpoints / URL / variables name )](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml)
+    - [JS analyse all in one (Token / Endpoints / URL / S3 bucket / ajax requests )](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml)
 
 - URLS analyse
     - [Url extension inspector - Check a list of URLs for interesting extensions !](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/url-analyse/url-extension-inspector.yaml)
