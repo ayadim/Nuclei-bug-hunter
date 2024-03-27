@@ -15,3 +15,6 @@ I will upload more nuclei templates that help bug bounty Hunters.
 
 - Subdomain Takeover
     - inspect suspected CNAME Provider (third party) for potential subdomain takeover based on [can-i-take-over-xyz ](https://github.com/EdOverflow/can-i-take-over-xyz) [Template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/dns/cname-provider-assessment.yaml)
+ 
+
+[Want to buy  me a coffee ? ](https://ko-fi.com/ayadim)
