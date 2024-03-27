@@ -1,7 +1,7 @@
 # Nuclei Bug Hunter
-I will upload more nuclei templates that help bug bounty Hunters.
-#
-## Main templates 
+For the community of bug bounty hunter i will try to create templates that solves their problems.
+
+### Main templates 
 
 - [Find possible vulnerable parameters.](https://github.com/ayadim/Nuclei-bug-hunter/tree/main/file/Vulnerable-URLS)
 - [Find secrets in repositories or code source ](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/secrets/extra-secrets.yaml)
